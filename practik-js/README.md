@@ -1,8 +1,26 @@
-# React + Vite
+1. Реализовать форму c помощью
+функциональных компонентов, в форме
+должно быть реализовано одно поле и
+значение этого поля нужно выводить в
+консоль после нажатия на кнопку, которая
+находится тоже в форме. Нужно использовать
+хук useRef для того, чтобы вывести значение,
+которое введено в input
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Создать компонент, которому передаем текст
+(3-4 предложения с точкой в конце каждого
+предложения). Компонент выводит только
+первое предложение. И есть кнопка
+"Показать подробнее" - при клике на неё
+выводиться вместо одного предложения весь
+текст. После этого, при нажатии на кнопку
+текст можно закрыть и должно отображаться
+одно предложение
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Необходимо реализовать функциональный
+компонент InputNumber, в котором нужно
+ввести число в input и в зависимости
+отрицательное или положительное это число
+в компоненте Message нужно выводить
+информацию: ”Число больше нуля” / “Число
+меньше нуля”
